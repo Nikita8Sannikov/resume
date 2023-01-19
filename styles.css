@@ -30,7 +30,7 @@ body {
     margin-left: 50px;
 }
 
-@media(max-width:510px){
+@media(max-width:770px){
     .info{
         display: block;
         text-align: center;
@@ -38,7 +38,7 @@ body {
 }
 
 
-@media(max-width:510px){
+@media(max-width:770px){
     .info-text{
         margin-left: 0;
     }
@@ -111,11 +111,43 @@ a:active{
 .table{
     width: 100%;
 }
-@media(max-width: 510px){
+/* @media(max-width: 770px){
     .table {
         font-size: 0.7em;
     }
+} */
+@media(max-width: 770px){
+    .card {
+        
+        font-size: 0.7em;
+        text-align: center;
+    }
 }
+
+@media(max-width: 770px){
+    .card2 {
+        width: 100%;
+        font-size: 0.7em;
+        text-align: center;
+    }
+}
+
+@media(max-width: 770px){
+    .list{
+        display: inline-block}
+} 
+
+@media(max-width: 770px){
+.list  li{
+    text-align: left;
+    }
+}   
+  
+@media(max-width: 770px){
+    .card td{
+        text-align: left;
+        }
+    }   
 
 .table td{
     padding-bottom: 10px;
@@ -167,7 +199,7 @@ a:active{
     margin-right: 0;
 }
 
-@media(max-width:510px){
+@media(max-width:770px){
     .form-row{
         margin-bottom: 10px;
         display: block;
