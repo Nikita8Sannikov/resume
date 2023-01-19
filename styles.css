@@ -38,6 +38,11 @@ body {
 }
 
 
+@media(max-width:510px){
+    .info-text{
+        margin-left: 0;
+    }
+}
 .info-text p {
     font-style: italic;
     font-weight: bold;
@@ -105,6 +110,11 @@ a:active{
 
 .table{
     width: 100%;
+}
+@media(max-width: 510px){
+    .table {
+        font-size: 0.7em;
+    }
 }
 
 .table td{
