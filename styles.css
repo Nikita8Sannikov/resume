@@ -9,6 +9,11 @@ body {
     color: #0f141e;
 }
 
+@media(max-width:770px){
+    body{
+        padding-left: 0;
+    }
+}
 .container {
     max-width: 850px;
     margin: auto;
